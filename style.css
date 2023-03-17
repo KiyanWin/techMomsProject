@@ -1,5 +1,6 @@
 body {
   font-family: 'Shadows Into Light', cursive;
+  background-color: burlywood;
 }
 /* comment */
 #dreamcatcher {
@@ -51,10 +52,8 @@ nav a {
     max-width: 12%;
     border-radius: 30px 30px 30px 30px;
   }
-
-/* .singing {
-    max-width: 20%;
-    display: flex;
+/* 
+.singing {
     padding-top: 100px;
     padding-bottom: 100px;
 } */
@@ -80,16 +79,11 @@ h1 {
   font-size: 200%;
 }
 
-div.container {
+/* div.container {
     text-align: left;
     padding-top: 100px;
     padding-bottom: 100px;
-  }
-  
-ul.myUL {
-    display: inline-block;
-    text-align: left;
-  }
+  } */
 
 .row {
     display: flex;
@@ -98,15 +92,12 @@ ul.myUL {
 .column {
     flex: 33.33%;
     padding: 5px;
+    justify-content: center;
   }
 
 footer {
   background-color:burlywood;
 }
-
-/* .fa fa-linkedin-square {
-  font-size: 24px;
-} */
 
 .material-symbols-outlined {
   font-variation-settings:
@@ -128,4 +119,8 @@ footer {
   display: inline-block;
   font-size: 21px;
   font-weight: 400;
+}
+
+p {
+  font-size: 21px;
 }
